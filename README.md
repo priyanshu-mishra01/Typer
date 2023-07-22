@@ -1,4 +1,11 @@
 # Typer
+## Screenshot
+- Landing Page
+  ![Landing_Page](https://github.com/priyanshu-mishra01/Typer/blob/main/Images/Landing_Page.png)
+- Demo
+  ![Demo](https://github.com/priyanshu-mishra01/Typer/blob/main/Images/Working_Demo.png)
+- Result
+  ![Result](https://github.com/priyanshu-mishra01/Typer/blob/main/Images/Result.png)
 ## Table of Contents
 
 1. [Introduction](#introduction)
