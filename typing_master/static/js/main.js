@@ -3,6 +3,7 @@ const quoteSection = document.getElementById("quote");
 const userInput = document.getElementById("quote-input");
 let quote = "";
 let time = 60;
+let tot=0;
 let timer = "";
 let mistakes = 0;
 
@@ -102,7 +103,7 @@ const displayResult = () => {
   userInput.disabled = true;
   let timeTaken = 1;
   if (time != 0) {
-    timeTaken = (60 - time) / 100;
+    timeTaken = (tot - time) / 100;
   }
   document.getElementById("wpm").innerText =
     (userInput.value.length / 5 / timeTaken).toFixed(2) + " wpm";
