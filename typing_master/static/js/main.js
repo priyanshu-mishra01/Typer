@@ -12,7 +12,10 @@ function displayRadioValue() {
   var ele = document.getElementsByName("duration");
 
   for (i = 0; i < ele.length; i++) {
-    if (ele[i].checked) time = ele[i].value;
+    if (ele[i].checked) {
+      time = ele[i].value;
+      tot = ele[i].value;
+    }
   }
 }
 const renderNewQuote = async () => {
