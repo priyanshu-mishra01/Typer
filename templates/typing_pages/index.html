@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <header>
+        <h1>Speed Typing Game</h1>
+        <p>Test and Improve Your Typing Skills!</p>
+    </header>
+    <div class="container">
+        <h2>Practice Solo or Compete Against Others</h2>
+        <p>
+            Welcome to the Speed Typing game! Practice and improve your typing skills or challenge others in Multi-Player
+            Mode.
+        </p>
+        <p>
+            Choose the level of difficulty and game duration, and start typing to see how fast and accurately you can type.
+        </p>
+        <a class="cta-button" href="{% url 'solo' %}">Practice Solo</a>
+        <a class="cta-button" href="{% url 'multiplayer' %}">Play Multi-Player</a>
+    </div>
+{% endblock %}
